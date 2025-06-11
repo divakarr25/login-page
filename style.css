@@ -256,24 +256,6 @@ footer {
     }
 }
 
-/* ::::: RESPONSIVE DESIGN DEVICE SIZES ::::: */
-
-/* for Responsive Target the ROW Code (display:grid) */
-
-/* Small devices (landscape phones, upto 576px and below) */
-/* @media (width <=576px) */
-@media (max-width: 576px) {
-
-    .grid-1,
-    .grid-2,
-    .grid-3,
-    .grid-4 {
-        grid-template-columns: 1fr;
-        padding: 0rem 1rem;
-    }
-
-}
-
 /* Medium devices (tablets, upto 768px and above) */
 /* @media (width >=577px) and (width <=768px) */
 @media (min-width: 577px) and (max-width: 768px) {
@@ -314,5 +296,5 @@ select,
 button {
     padding: 30px;
     margin: 10px;
-    font-size: 40px;
+    font-size: 20px;
 }
